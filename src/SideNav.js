@@ -44,7 +44,7 @@ export default function SideNav(){
                     </NavLink>
                 </li>
                 <li className="side-nav-item">
-                    <a activeClassName="active" href="https://docs.google.com/document/d/1-SKF413vg_KNZQSXuKGqQGD5BSzBF9ed/edit?usp=sharing&ouid=102584653941470394808&rtpof=true&sd=true" target="_blank">
+                    <a activeClassName="active" href="https://docs.google.com/document/d/1-SKF413vg_KNZQSXuKGqQGD5BSzBF9ed/edit?usp=sharing&ouid=102584653941470394808&rtpof=true&sd=true" target="_blank" rel="noreferrer">
                         Resume
                     </a>
                 </li>
