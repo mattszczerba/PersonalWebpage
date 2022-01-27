@@ -1,0 +1,102 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+  }
+  a {
+    color: #00b99f;
+    transition: transform 150ms ease-out;
+  }
+  a:active {
+    color: #dc9f16;
+  }
+  
+  .main-container {
+    max-width: 900px;
+    margin: 10px auto;
+    margin-left: 250px;
+    padding: 0 20px;
+    box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.07);
+  }
+
+  .SideNav {
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    height: 489px;
+    width: 200px;
+    /* min-height: fit-content; */
+    top: 0;
+    z-index: 1;
+    position:fixed;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    margin-right: 0px;
+    align-items: left;
+    justify-content:space-between;
+    box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.07),
+      3px -3px 7px 1px rgba(0, 0, 0, 0.07);
+  }
+
+  .SideNav ul{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: left;
+    /* padding-right: 0px;/*20px;
+    padding-left: 0;
+    padding-bottom: 10px; */
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    /* margin-right: 0px; */
+  }
+
+  .SideNav li{
+    display: inline-block;
+  }
+
+  .side-nav-item a{
+    text-decoration: none;
+    font-weight: normal;
+    display: inline-block;
+    text-align: left;
+    padding: 13px 15px;
+    min-width: 165px;
+    color: rgb(5, 10, 82);
+    transition: 0.2s;
+  }
+  
+  .side-nav-item:hover a{
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+    font-weight: bold;
+    border-left:rgb(5, 10, 82) solid 6px;
+    box-shadow: 3px 3px 7px 1px rgba(5, 3, 102, 0.425);
+  }
+
+  .side-nav-item a.active{
+    font-weight: bold;
+  }
+
+  .side-nav-home{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 450;
+    color:rgb(27, 27, 160);
+    font-size:40px;
+    text-align: center;
+    letter-spacing: .1rem;
+  }
+
+  .side-nav-home:hover{
+    text-decoration: none;
+  }
+
+  .side-nav-home:active{
+    color:rgba(27, 27, 160, 0.486);
+  }
+
+  .navimg {
+    border: 0;
+    height: 50px;
+    width: 50px;
+  }

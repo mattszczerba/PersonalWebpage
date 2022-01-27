@@ -1,0 +1,67 @@
+{
+    "supermarket": [
+        {
+            "description":"200g cheese block",
+            "id":1,
+            "image":"https://res.cloudinary.com/dow8www4d/image/upload/v1642613781/Store/cheese.png",
+            "name":"Cheese",
+            "price":10,
+            "price_id":"price_1KHDYbGvSBxctCyWsANE3Gsf",
+            "storage":"Store in a cool place (between 5°C and 15°C)",
+            "nutrition":
+            {
+                "carbs":1.3,
+                "fat":33,
+                "protein":25,
+                "salt":1
+            }
+        },
+        {
+            "description":"200ml milk bottle",
+            "id":2,"image":"https://res.cloudinary.com/dow8www4d/image/upload/v1642613781/Store/milk.png",
+            "name":"Milk",
+            "price":5,
+            "price_id":"price_1KJiL5GvSBxctCyWxSZsflzr",
+            "storage":"Store in the fridge",
+            "nutrition":
+            {
+                "carbs":11,
+                "fat":15,
+                "protein":16,
+                "salt":0.44
+            }
+        },
+        {
+            "description":"1 piece of tomato",
+            "id":3,
+            "image":"https://res.cloudinary.com/dow8www4d/image/upload/v1642613781/Store/tomato_qnvbb9.png",
+            "name":"Tomato",
+            "price":2.75,
+            "price_id":"price_1KJiNuGvSBxctCyWf5CJ5uZI",
+            "storage":"Store in a cool place, away from the sun.",
+            "nutrition":
+            {
+                "carbs":4,
+                "fat":0.2,
+                "protein":1,
+                "salt":0
+            }
+        },
+        {
+            "description":"500g pineapple",
+            "id":4,
+            "image":"https://res.cloudinary.com/dow8www4d/image/upload/v1642613781/Store/pineapple.png",
+            "name":"Pineapple",
+            "price":3.25,
+            "price_id":"price_1KJiOJGvSBxctCyWG0UrwghR",
+            "storage":"Store in a cool place, away from the sun.",
+            "nutrition":
+            {
+                "carbs":22,
+                "fat":2,
+                "protein":1,
+                "salt":0
+            }
+        }
+    ]
+}
