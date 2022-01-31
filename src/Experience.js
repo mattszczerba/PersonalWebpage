@@ -4,7 +4,7 @@ export default function Experience(){
     return (<>
         <div>
             <h2>Software Developer, Avenir Health  </h2>
-            <small>November 2020 – August 2021</small>
+            <small>November 2020 – Present</small>
             <p>
                 Avenir Health is an international health organization that projects outcomes of health interventions. During my time at Avenir I worked both in back-end and front-end software development for web and desktop applications including:
             </p>
