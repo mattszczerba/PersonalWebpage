@@ -2,7 +2,8 @@ import React from 'react';
 import {slide as Menu} from 'react-burger-menu';
 import { NavLink } from "react-router-dom";
 import './Sidebar.css';
-export default props => {
+
+export default function SideNavMobile(){
     return (<>
         <Menu >
             <nav><ul>
