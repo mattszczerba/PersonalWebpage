@@ -3,16 +3,14 @@ import { NavLink } from "react-router-dom";
 
 export default function SideNav(){
     return (
-        <nav className="SideNav">
-            <NavLink to="/" className="side-nav-home">
-                Matt Szczerba
-            </NavLink>
+        <nav className="SideNav hide_on_small">
             <ul>
-                {/* <li className="side-nav-item">
-                    <NavLink activeClassName="active" to="/">
-                        Home
+                <li className="side-nav-logo">
+                    <NavLink to="/" className="side-nav-home">
+                        Matt Szczerba<br/>
+                        <span className="green-text light">Full Stack Developer</span>
                     </NavLink>
-                </li> */}
+                </li>
                 <li className="side-nav-item">
                     <NavLink activeClassName="active" to="/about">
                         About

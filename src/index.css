@@ -10,11 +10,15 @@ body {
   a:active {
     color: #dc9f16;
   }
+  blockquote {
+    margin:20px 0;
+    padding-left:1.5rem;
+    border-left:5px solid #1d4b1b
+  }
   
   .main-container {
     max-width: 900px;
     margin: 10px auto;
-    margin-left: 250px;
     padding: 0 20px;
     box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.07);
   }
@@ -36,6 +40,19 @@ body {
     justify-content:space-between;
     box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.07),
       3px -3px 7px 1px rgba(0, 0, 0, 0.07);
+  }
+
+  .TopNav{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    padding: 15px;
+    z-index: 1;
+    box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.07),
+      3px -3px 7px 1px rgba(0, 0, 0, 0.07);
+    top: 0;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
   }
 
   .SideNav ul{
@@ -80,11 +97,33 @@ body {
   .side-nav-home{
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-weight: 450;
+    /* font-weight: 450; */
+    font-weight: 200;
     color:rgb(27, 27, 160);
-    font-size:40px;
+    font-size:32px;
     text-align: center;
     letter-spacing: .1rem;
+
+    line-height: 100%;
+  }
+
+  .side-nav-home span{
+    font-size: 12px;
+  }
+
+  .side-nav-logo{
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+    box-sizing: content-box;
+    min-height: 90px;
+    padding: 30px 30px 30px;
+  }
+
+  .side-nav-logo h1{
+    font-size: 4.2rem;
+    line-height: 4.62rem;
+    margin: 2.1rem 0 1.68rem 0;
+    font-weight: 400;
   }
 
   .side-nav-home:hover{
@@ -100,3 +139,37 @@ body {
     height: 50px;
     width: 50px;
   }
+
+  .name-title{
+    display: block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+  .name-title a{
+    display: block;
+    font-size: 22px;
+  }
+
+  .blue-text{
+    color: rgb(27, 27, 160);
+  }
+  .green-text{
+    color:#1d4b1b;
+  }
+
+@media (max-width : 767px){
+  .hide_on_small {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px){
+  .main-container_margin {
+    margin-left: 250px;
+  }
+  .hide_on_large{
+    display: none !important;
+  }
+}

@@ -9,12 +9,14 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 import SideNav from "./SideNav.js";
 import Education from "./Education.js";
+import TopNav from "./TopNav.js";
 
 function App(){
     return (
         <BrowserRouter>
         <SideNav />
-            <div  className="main-container">
+        <TopNav />
+            <div  className="main-container main-container_margin">
                 <Switch>
                     <Route exact path="/">
                         <Home />
