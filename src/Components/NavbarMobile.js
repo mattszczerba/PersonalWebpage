@@ -50,7 +50,7 @@ function NavbarMobile() {
                     </a>
                 </li>
                 <div  className='nav-social-media'>
-                    {navSocialMediaData.map((item, index) => {
+                    {navSocialMediaData.map((item) => {
                         return(
                             <li>
                                 <a href={item.link} target="blank" title={item.title}>

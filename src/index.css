@@ -166,6 +166,61 @@
     color:#1d4b1b;
   }
 
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .educationCardHeader.card-image{
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .educationCardHeader.card-image > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    max-height: 200px;
+    object-position: center;
+    transition: 200ms transform ease-in-out;
+  }
+
+  .educationCard:hover > .educationCardHeader.card-image > img{
+    transform: scale(1.025);
+  }
+
+  .educationCard{
+    background: white;
+    --padding: 1rem;
+    /* border: 1px solid #777; */
+    border: none;
+    box-shadow: 3px 3px 7px 1px rgba(5, 3, 102, 0.425);
+    border-radius: .25rem;
+    /* max-width: 300px; */
+    overflow: hidden;
+  }
+
+  .educationCardHeader{
+    font-size: 1.5rem;
+    padding: var(--padding);
+    padding-bottom: 0;
+    margin-bottom: .5rem;
+  }
+
+  .educationCardFooter{
+    margin-top: 1rem;
+    padding: var(--padding);
+    padding-top: 0;
+  }
+
+  .educationCardBody{
+    font-size: .9rem;
+    padding: 0 var(--padding);
+  }
+
   #page-wrap {
     padding-bottom: 10px;
     padding-top: 10px;
