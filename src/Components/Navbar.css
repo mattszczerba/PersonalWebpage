@@ -57,6 +57,13 @@
     background-color: #1a83ff;
 }
 
+.nav-social-media {
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    list-style: none;
+}
+
 .nav-menu-items{
     width: 100%;
 }

@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import * as IoIcons from "react-icons/io";
-import { NavbarData } from './NavbarData';
+import { NavbarData, navSocialMediaData } from './NavbarData';
 import './Navbar.css';
 
 function NavbarMobile() {
@@ -49,7 +49,19 @@ function NavbarMobile() {
                         <span>Resume</span>
                     </a>
                 </li>
+                <div  className='nav-social-media'>
+                    {navSocialMediaData.map((item, index) => {
+                        return(
+                            <li>
+                                <a href={item.link} target="blank" title={item.title}>
+                                    <img className={item.cName} src={item.img} alt={item.alt} />
+                                </a>
+                            </li>
+                        )
+                    })}
+                </div>
             </ul>
+            
         </nav>
     </nav>
     </>
