@@ -6,7 +6,7 @@ export default function Education(){
             <div className="card-grid">
                 <div className="educationCard">
                     <div className="educationCardHeader card-image">
-                        <img src="https://www2.ccsu.edu/_tmpl_home/img/apply-image.jpg" />
+                        <img src="https://www2.ccsu.edu/_tmpl_home/img/apply-image.jpg" alt="CCSU"/>
                     </div>
                     <div className="educationCardHeader">
                         Central Connecticut State University
@@ -18,7 +18,7 @@ export default function Education(){
                 </div>
                 <div className="educationCard">
                     <div className="educationCardHeader card-image">
-                        <img src="https://res.cloudinary.com/dow8www4d/image/upload/v1643841965/Webpage/tunxis.jpg" />
+                        <img src="https://res.cloudinary.com/dow8www4d/image/upload/v1643841965/Webpage/tunxis.jpg" alt="TXCC"/>
                     </div>
                     <div className="educationCardHeader">Tunxis Community College</div>
                     <div className="educationCardBody">
@@ -28,7 +28,7 @@ export default function Education(){
                 </div>
                 <div className="educationCard">
                     <div className="educationCardHeader card-image">
-                        <img src="https://res.cloudinary.com/dow8www4d/image/upload/v1643842092/Webpage/SHS.jpg" />
+                        <img src="https://res.cloudinary.com/dow8www4d/image/upload/v1643842092/Webpage/SHS.jpg" alt="SHS"/>
                     </div>
                     <div className="educationCardHeader">Southington High School</div>
                     <div className="educationCardBody">
