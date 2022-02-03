@@ -173,12 +173,12 @@
     align-items: flex-start;
   }
 
-  .educationCardHeader.card-image{
+  .cardHeader.card-image{
     padding: 0;
     overflow: hidden;
   }
 
-  .educationCardHeader.card-image > img {
+  .cardHeader.card-image > img {
     display: block;
     width: 100%;
     aspect-ratio: 16/9;
@@ -188,11 +188,11 @@
     transition: 200ms transform ease-in-out;
   }
 
-  .educationCard:hover > .educationCardHeader.card-image > img{
+  .card:hover > .cardHeader.card-image > img{
     transform: scale(1.025);
   }
 
-  .educationCard{
+  .card{
     background: white;
     --padding: 1rem;
     /* border: 1px solid #777; */
@@ -203,22 +203,26 @@
     overflow: hidden;
   }
 
-  .educationCardHeader{
+  .cardHeader{
     font-size: 1.5rem;
     padding: var(--padding);
     padding-bottom: 0;
     margin-bottom: .5rem;
   }
 
-  .educationCardFooter{
+  .cardFooter{
     margin-top: 1rem;
     padding: var(--padding);
     padding-top: 0;
   }
 
-  .educationCardBody{
+  .cardBody{
     font-size: .9rem;
     padding: 0 var(--padding);
+  }
+
+  .cardBody ul{
+    padding: 0 20px;
   }
 
   #page-wrap {
