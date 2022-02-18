@@ -27,7 +27,7 @@ export default function Experience(){
                         </li>
                     </ul>
                 </div>
-                <div className="cardFooter">November 2020 – Present</div>
+                <div className="cardFooter">November 2020 – August 2021</div>
             </div>
             <div className="card">
                 <div className="cardHeader">
