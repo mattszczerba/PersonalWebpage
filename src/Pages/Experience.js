@@ -9,7 +9,7 @@ export default function Experience(){
                     Software Developer, Avenir Health
                 </div>
                 <div className="cardBody">
-                    <small>November 2020 – Present</small>
+                    <small>November 2020 – August 2021</small>
                     <p>
                         Avenir Health is an international health organization that projects outcomes of health interventions. During my time at Avenir I worked both in back-end and front-end software development for web and desktop applications including:
                     </p>
