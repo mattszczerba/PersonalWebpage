@@ -24,7 +24,7 @@ export default function Projects(){
                     <div className="cardFooter">
                     <Link
                         to={`/projects/storefront/home`} 
-                        target="_blank"
+                        // target="_blank"
                         className="submitButton"
                         data-tooltip="View Online"
                         data-position="top"
