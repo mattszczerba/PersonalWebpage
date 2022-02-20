@@ -10,7 +10,7 @@ export default function Contact(){
                 <p>Feel free to contact me via my email address or form below:</p>
                 <a href = "mailto: mattszczerba@outlook.com">mattszczerba@outlook.com</a><br/>
             </div>
-            <div>
+            <div className="contactContainer">
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="name">
                       Name:
@@ -19,6 +19,8 @@ export default function Contact(){
                       id="name"
                       type="name" 
                       name="name"
+                      placeholder="Name"
+                      className="contactInput"
                     />
                     <label htmlFor="email">
                       Email Address:
@@ -27,6 +29,8 @@ export default function Contact(){
                       id="email"
                       type="email" 
                       name="email"
+                      placeholder="Email"
+                      className="contactInput"
                     />
                     <ValidationError 
                       prefix="Email" 
@@ -45,12 +49,13 @@ export default function Contact(){
                       field="message"
                       errors={state.errors}
                     />
-                    <button type="submit" disabled={state.submitting}>
+                    <button type="submit" disabled={state.submitting} className="submitButton">
                       Submit
                     </button>
+                    {state.succeeded && <p className="msgSent">Message sent!</p>}
                 </form>
             </div>
-            {state.succeeded && <p>Message sent!</p>}
+            {/* {state.succeeded && <p>Message sent!</p>} */}
         </div>
     );
 }
