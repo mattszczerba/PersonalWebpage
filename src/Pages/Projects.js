@@ -37,6 +37,7 @@ export default function Projects(){
                         target="_blank"
                         data-position="top"
                         data-tooltip="View Github"
+                        rel="noreferrer"
                         className="submitButton">
                             Github <i class="fa fa-github"></i>
                     </a>
@@ -60,6 +61,7 @@ export default function Projects(){
                             target="_blank"
                             data-position="top"
                             data-tooltip="View Github"
+                            rel="noreferrer"
                             className="submitButton">
                                 Github <i class="fa fa-github"></i>
                         </a>
@@ -83,6 +85,7 @@ export default function Projects(){
                             target="_blank"
                             data-position="top"
                             data-tooltip="View Github"
+                            rel="noreferrer"
                             className="submitButton">
                                 Github <i class="fa fa-github"></i>
                         </a>
@@ -106,6 +109,7 @@ export default function Projects(){
                             target="_blank"
                             data-position="top"
                             data-tooltip="View Github"
+                            rel="noreferrer"
                             className="submitButton">
                                 Github <i class="fa fa-github"></i>
                         </a>
