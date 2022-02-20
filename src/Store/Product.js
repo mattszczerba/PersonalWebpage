@@ -13,7 +13,7 @@ export default function Product(props) {
   return (
     <div className="product">
       <div className="product-image-container">
-        <Link to={`/store/products/${details.id}`}>
+        <Link to={`/projects/storefront/products/${details.id}`}>
           <img
             src={details.image}
             width="100"

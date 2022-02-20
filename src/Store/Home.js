@@ -10,7 +10,7 @@ export default function Home() {
           Order your groceries from <em>MattMart</em> with our easy to use mock shopping app,
           and get your products delivered straight to your doorstep.
         </p>
-        <Link to="/store/products" className="btn btn-default">
+        <Link to="/projects/storefront/products" className="btn btn-default">
           Start shopping
         </Link>
       </div>

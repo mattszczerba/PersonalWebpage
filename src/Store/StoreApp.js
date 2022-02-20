@@ -64,23 +64,26 @@ function StoreApp() {
       <Navbar cart={cart} />
       <div className="container">
         <Switch>
-          <Route exact path="/store/home">
+          {/* <Route exact path="/">
+            <Home />
+          </Route> */}
+          <Route exact path="/projects/storefront/home">
             <Home />
           </Route>
-          <Route exact path="/store/about">
+          <Route exact path="/projects/storefront/about">
             <About />
           </Route>
-          <Route exact path="/store/products">
+          <Route exact path="/projects/storefront/products">
             <Products
               cart={cart}
               onProductAdd={handleProductAdd}
               onProductDelete={handleProductDelete}
             />
           </Route>
-          <Route path="/store/products/:id">
+          <Route path="/projects/storefront/products/:id">
             <ProductDetails onProductAdd={handleProductAdd} />
           </Route>
-          <Route exact path="/store/cart">
+          <Route exact path="/projects/storefront/cart">
             <Cart cart={cart} />
           </Route>
         </Switch>

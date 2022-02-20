@@ -10,6 +10,7 @@ import Contact from "./Pages/Contact";
 import SideNav from "./Components/SideNav.js";
 import Education from "./Pages/Education.js";
 import NavbarMobile from "./Components/NavbarMobile.js";
+import StoreApp from "./Store/StoreApp";
 
 function App(){
     return (
@@ -38,6 +39,9 @@ function App(){
                     </Route>
                     <Route exact path="/contact">
                         <Contact />
+                    </Route>
+                    <Route exact path="/projects/storefront/home">
+                        <StoreApp />
                     </Route>
                 </Switch>
             </div>

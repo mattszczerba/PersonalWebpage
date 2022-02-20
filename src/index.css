@@ -24,9 +24,8 @@
   }
   
   .main-container {
-    max-width: 900px;
     margin: 10px auto;
-    padding: 0 20px 50px;
+    padding: 0 5% 50px;
     box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.07);
   }
 
@@ -214,6 +213,7 @@
     margin-top: 1rem;
     padding: var(--padding);
     padding-top: 0;
+    margin: 20px 0;
   }
 
   .cardBody{
@@ -236,7 +236,15 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 600;
   }
+  
+  .submitButton:hover{
+    text-decoration: none;
+  }
+
   .contactContainer{
     border-radius: 5px;
     background-color: #f0f0f060;

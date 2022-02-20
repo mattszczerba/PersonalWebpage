@@ -9,27 +9,27 @@ export default function Navbar(props) {
 
   return (
     <nav className="navbar">
-      <NavLink to="/store/Home" className="nav-brand">
+      <NavLink to="/projects/storefront/home" className="nav-brand">
         MattMart
       </NavLink>
       <ul>
         <li className="nav-item">
-          <NavLink exact activeClassName="active" to="/store/Home">
+          <NavLink exact activeClassName="active" to="/projects/storefront/home">
             Home
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact activeClassName="active" to="/store/about">
+          <NavLink exact activeClassName="active" to="/projects/storefront/about">
             About us
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink activeClassName="active" to="/store/products">
+          <NavLink activeClassName="active" to="/projects/storefront/products">
             Products
           </NavLink>
         </li>
         <li>
-          <NavLink to="/store/cart" className="nav-item nav-cart btn btn-accent">
+          <NavLink to="/projects/storefront/cart" className="nav-item nav-cart btn btn-accent">
             Cart ({cartCount})
           </NavLink>
         </li>
