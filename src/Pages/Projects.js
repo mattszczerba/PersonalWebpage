@@ -61,6 +61,7 @@ export default function Projects(){
                             className="submitButton"
                             data-tooltip="View Online"
                             data-position="top"
+                            rel="noreferrer"
                             aria-label="Visit Task Tracker web app"
                             >View <i class="fa fa-external-link"></i>
                         </a>
@@ -94,6 +95,7 @@ export default function Projects(){
                             className="submitButton"
                             data-tooltip="View Online"
                             data-position="top"
+                            rel="noreferrer"
                             aria-label="Visit Tour of Heroes web app"
                             >View <i class="fa fa-external-link"></i>
                         </a>
