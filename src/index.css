@@ -316,8 +316,12 @@
     box-sizing: border-box;
     padding: 0 0.75rem;
     width: 16.66667%;
-    margin-left: 0;
+    margin-left: 5%;
     margin-bottom: 1rem;
+  }
+
+  .column.offset{
+    margin-left: 16.66667%;
   }
 
   .row{
@@ -338,7 +342,7 @@
     display: table-cell;
     transition: transform 180ms ease-out;
   }
-  
+
   .skillImg:hover {
     transform: scale(1.01) rotateZ(2deg);
   }
