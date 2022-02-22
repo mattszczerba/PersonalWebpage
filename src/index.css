@@ -316,8 +316,7 @@
     box-sizing: border-box;
     padding: 0 0.75rem;
     width: 16.66667%;
-    margin-left: 5%;
-    margin-bottom: 1rem;
+    margin: 1rem;
   }
 
   .column.offset{
