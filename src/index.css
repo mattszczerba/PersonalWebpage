@@ -172,6 +172,13 @@
     align-items: flex-start;
   }
 
+  .cgskills{
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    gap: 3rem;
+    align-items: flex-start;
+    display: grid;
+  }
+
   .cardHeader.card-image{
     padding: 0;
     overflow: hidden;
@@ -300,6 +307,40 @@
     float: left;
     clear: both;
     margin-left: 0px;
+  }
+
+  .column {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+    width: 16.66667%;
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .row{
+    margin-left:-0.75rem;
+    margin-right:-0.75rem;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .skillImg {
+    margin: 0 auto;
+    max-height: 100px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    transition: transform 180ms ease-out;
+  }
+  
+  .skillImg:hover {
+    transform: scale(1.01) rotateZ(2deg);
   }
 
   #page-wrap {
