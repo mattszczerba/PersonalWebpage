@@ -56,6 +56,15 @@ export default function Projects(){
                     <div className="cardFooter">
 
                         <a
+                            href="https://tasktracker-mattszczerba.herokuapp.com/"
+                            target="_blank"
+                            className="submitButton"
+                            data-tooltip="View Online"
+                            data-position="top"
+                            aria-label="Visit Task Tracker web app"
+                            >View <i class="fa fa-external-link"></i>
+                        </a>
+                        <a
                             aria-label="Visit Mock Storefront Github code"
                             href="https://github.com/mattszczerba/Task-Tracker"
                             target="_blank"
@@ -79,6 +88,15 @@ export default function Projects(){
                     </div>
                     <div className="cardFooter">
 
+                        <a
+                            href="https://tourofheroes-mattszczerba.herokuapp.com/dashboard"
+                            target="_blank"
+                            className="submitButton"
+                            data-tooltip="View Online"
+                            data-position="top"
+                            aria-label="Visit Tour of Heroes web app"
+                            >View <i class="fa fa-external-link"></i>
+                        </a>
                         <a
                             aria-label="Visit Tour of Heroes Github code"
                             href="https://github.com/mattszczerba/angular-tour-of-heroes"
