@@ -135,6 +135,30 @@ export default function Projects(){
                         </a>
                     </div>
                 </div>
+                <div className="card">
+                    <div className="cardHeader card-image">
+                        <img src="https://res.cloudinary.com/dow8www4d/image/upload/v1645627427/Webpage/portfolioscreenshot.png" alt="Personal Portfolio"/>
+                    </div>
+                    <div className="cardHeader">
+                        Personal Portfolio Webpage
+                    </div>
+                    <div className="cardBody">
+                        Javascript with React
+                    </div>
+                    <div className="cardFooter">
+
+                        <a
+                            aria-label="Visit Personal Portfolio Webpage Github code"
+                            href="https://github.com/mattszczerba/PersonalWebpage"
+                            target="_blank"
+                            data-position="top"
+                            data-tooltip="View Github"
+                            rel="noreferrer"
+                            className="submitButton">
+                                Github <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     );
